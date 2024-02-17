@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "industrialmachinery",
+	"version": "${version}",
+	"name": "industrial-machinery",
+	"description": "Mod that adds industrial machinery with new fuel system to minecraft.",
+	"authors": [
+		"Neemias Leal"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/industrialmachinery/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.neemiasrdl.industrialmachinery.Industrialmachinery"
+		],
+		"client": [
+			"net.neemiasrdl.industrialmachinery.IndustrialMachineryClient"
+		],
+		"fabric-datagen": [
+			"net.neemiasrdl.industrialmachinery.IndustrialmachineryDataGenerator"
+		]
+	},
+	"mixins": [
+		"industrialmachinery.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
