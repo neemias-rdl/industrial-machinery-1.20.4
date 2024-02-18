@@ -13,20 +13,20 @@ import net.neemiasrdl.industrialmachinery.Industrialmachinery;
 
 public class ModItems {
 
+    public static final Item SUGAR_CANE_BAGASSE = registerItem("sugar_cane_bagasse", new Item(new FabricItemSettings()));
     public static final Item STEEL_INGOT = registerItem("steel_ingot", new Item(new FabricItemSettings()));
-
-    private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
-        entries.add(STEEL_INGOT);
-    }
+    public static final Item STEEL_PLATE = registerItem("steel_plate", new Item(new FabricItemSettings()));
+    public static final Item COPPER_GEAR = registerItem("copper_gear", new Item(new FabricItemSettings()));
+    public static final Item FLUID_TANK =  registerItem("fluid_tank", new Item(new FabricItemSettings()));
+    public static final Item ENGINE =  registerItem("engine", new Item(new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(Industrialmachinery.MOD_ID, name), item);
     }
 
     public static void registerModItems() {
-        Industrialmachinery.LOGGER.info("Registering mod items for" + Industrialmachinery.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientItemGroup);
+        Industrialmachinery.LOGGER.info("Registering mod items for" + Industrialmachinery.MOD_ID);
 
     }
 

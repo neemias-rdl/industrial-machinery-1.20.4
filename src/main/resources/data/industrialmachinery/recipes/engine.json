@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "-": {
+      "item": "minecraft:copper_ingot"
+    },
+    "/": {
+      "item": "industrialmachinery:steel_plate"
+    },
+    "!": {
+      "item": "industrialmachinery:copper_gear"
+    },
+    "*": {
+      "item": "industrialmachinery:fluid_tank"
+    }
+  },
+  "pattern": [
+    "/--",
+    "!*!",
+    "///"
+  ],
+  "result": {
+    "item": "industrialmachinery:engine"
+  }
+}

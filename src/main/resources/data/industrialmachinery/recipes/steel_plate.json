@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "/": {
+      "item": "industrialmachinery:steel_ingot"
+    },
+    "_": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "pattern": [
+    "   ",
+    "_/ ",
+    "/_ "
+  ],
+  "result": {
+    "item": "industrialmachinery:steel_plate"
+  }
+}

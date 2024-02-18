@@ -1,3 +1,9 @@
 {
-  "item.industrialmachinery.steel_ingot": "Steel Ingot"
+  "itemgroup.industrial_machine_components": "Industrial Components",
+  "item.industrialmachinery.steel_ingot": "Steel Ingot",
+  "item.industrialmachinery.steel_plate": "Steel Plate",
+  "item.industrialmachinery.copper_gear": "Copper Gear",
+  "item.industrialmachinery.fluid_tank": "Fluid Tank",
+  "item.industrialmachinery.engine": "Engine",
+  "item.industrialmachinery.sugar_cane_bagasse": "Sugar Cane Bagasse"
 }
